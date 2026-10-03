@@ -76,6 +76,7 @@ section input{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
+    height: 90vh;
     padding: 10px;
 }
 .heading-section h1{
@@ -100,4 +101,11 @@ aside{
 aside div:nth-child(2){
     display: flex;
     align-items: flex-end;
+}
+
+.product{
+    font-family: calibri;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 8px;
 }
