@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>InventoryPro</h1>
+            <p>Inventory Management System</p>
+
+            <div class="list">
+                <ul>
+                    <li><a href="#dashboard"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                    <path
+                                        d="M21 19v-6.733a4 4 0 0 0-1.245-2.9L13.378 3.31a2 2 0 0 0-2.755 0L4.245 9.367A4 4 0 0 0 3 12.267V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2" />
+                                    <path d="M9 15a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6H9z" />
+                                </g>
+                            </svg>
+                            Dashboard</a></li>
+                    <li><a href="#products"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 2048 2048">
+                                <path d="M0 0h2048v2048H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="m960 120l832 416v1040l-832 415l-832-415V536zm625 456L960 264L719 384l621 314zM960 888l238-118l-622-314l-241 120zM256 680v816l640 320v-816zm768 1136l640-320V680l-640 320z" />
+                            </svg>
+                            Products</a></li>
+
+                    <li><a href="#categorise"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M10 3H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1M9 9H5V5h4zm11-6h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1m-1 6h-4V5h4zm-9 4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1m-1 6H5v-4h4zm8-6c-2.206 0-4 1.794-4 4s1.794 4 4 4s4-1.794 4-4s-1.794-4-4-4m0 6c-1.103 0-2-.897-2-2s.897-2 2-2s2 .897 2 2s-.897 2-2 2" />
+                            </svg>
+                            Categorise</a></li>
+
+                    <li><a href="#suppliers"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <g fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="7" cy="6" r="3" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M10 13H5.818a3 3 0 0 0-2.964 2.537L2.36 18.69A2 2 0 0 0 4.337 21H9m12.64-2.309l-.494-3.154A3 3 0 0 0 18.182 13h-2.364a3 3 0 0 0-2.964 2.537l-.493 3.154A2 2 0 0 0 14.337 21h5.326a2 2 0 0 0 1.976-2.309" />
+                                    <circle cx="17" cy="6" r="3" />
+                                </g>
+                            </svg>
+                            Suppliers</a></li>
+
+                    <li><a href="#orders"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M21 4H6.17l-.18-1.15C5.91 2.36 5.49 2 5 2H2v2h2.14l1.87 12.15c.08.49.5.85.99.85h12v-2H7.86l-.31-2H19c.45 0 .84-.3.96-.73l2-7a.99.99 0 0 0-.16-.88c-.19-.25-.49-.4-.8-.4ZM8 18a2 2 0 1 0 0 4a2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4a2 2 0 1 0 0-4" />
+                            </svg>
+                            Orders</a></li>
+
+                    <li><a href="#report"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 2048 2048">
+                                <path d="M0 0h2048v2048H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M1920 1280h-384V384h384zM0 1024h384v640H0zm1408 512h-128v128h-256V0h384zM512 384h384v1280H512zm1536 1280v128h-256v256h-128v-256h-256v-128h256v-256h128v256z" />
+                            </svg>
+                            Reports</a></li>
+
+                    <li><a href="#setting"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                viewBox="0 0 1024 1024">
+                                <path d="M0 0h1024v1024H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M512.5 390.6c-29.9 0-57.9 11.6-79.1 32.8c-21.1 21.2-32.8 49.2-32.8 79.1s11.7 57.9 32.8 79.1c21.2 21.1 49.2 32.8 79.1 32.8s57.9-11.7 79.1-32.8c21.1-21.2 32.8-49.2 32.8-79.1s-11.7-57.9-32.8-79.1a110.96 110.96 0 0 0-79.1-32.8m412.3 235.5l-65.4-55.9c3.1-19 4.7-38.4 4.7-57.7s-1.6-38.8-4.7-57.7l65.4-55.9a32.03 32.03 0 0 0 9.3-35.2l-.9-2.6a442.5 442.5 0 0 0-79.6-137.7l-1.8-2.1a32.12 32.12 0 0 0-35.1-9.5l-81.2 28.9c-30-24.6-63.4-44-99.6-57.5l-15.7-84.9a32.05 32.05 0 0 0-25.8-25.7l-2.7-.5c-52-9.4-106.8-9.4-158.8 0l-2.7.5a32.05 32.05 0 0 0-25.8 25.7l-15.8 85.3a353.4 353.4 0 0 0-98.9 57.3l-81.8-29.1a32 32 0 0 0-35.1 9.5l-1.8 2.1a445.9 445.9 0 0 0-79.6 137.7l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.2 56.5c-3.1 18.8-4.6 38-4.6 57c0 19.2 1.5 38.4 4.6 57l-66 56.5a32.03 32.03 0 0 0-9.3 35.2l.9 2.6c18.1 50.3 44.8 96.8 79.6 137.7l1.8 2.1a32.12 32.12 0 0 0 35.1 9.5l81.8-29.1c29.8 24.5 63 43.9 98.9 57.3l15.8 85.3a32.05 32.05 0 0 0 25.8 25.7l2.7.5a448.3 448.3 0 0 0 158.8 0l2.7-.5a32.05 32.05 0 0 0 25.8-25.7l15.7-84.9c36.2-13.6 69.6-32.9 99.6-57.5l81.2 28.9a32 32 0 0 0 35.1-9.5l1.8-2.1c34.8-41.1 61.5-87.4 79.6-137.7l.9-2.6c4.3-12.4.6-26.3-9.5-35m-412.3 52.2c-97.1 0-175.8-78.7-175.8-175.8s78.7-175.8 175.8-175.8s175.8 78.7 175.8 175.8s-78.7 175.8-175.8 175.8" />
+                            </svg>
+                            Setting</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section>
+            <div class="search-bar ">
+                <div class="input-box">
+                    <input style="width:30%" type="text" placeholder="Search anything...">
+                </div>
+
+                <div class="user">
+                    <aside>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M13 3a1 1 0 1 0-2 0v.75h-.557A4.214 4.214 0 0 0 6.237 7.7l-.221 3.534a7.4 7.4 0 0 1-1.308 3.754a1.617 1.617 0 0 0 1.135 2.529l3.407.408V19a2.75 2.75 0 1 0 5.5 0v-1.075l3.407-.409a1.617 1.617 0 0 0 1.135-2.528a7.4 7.4 0 0 1-1.308-3.754l-.221-3.533a4.214 4.214 0 0 0-4.206-3.951H13zm-2.25 16a1.25 1.25 0 1 0 2.5 0v-.75h-2.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </aside>
+
+                    <aside>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
+                            <path d="M0 0h32v32H0z" fill="none" />
+                            <path fill="none"
+                                d="M8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0M20.5 12.5A4.5 4.5 0 1 1 16 8a4.5 4.5 0 0 1 4.5 4.5" />
+                            <path fill="currentColor"
+                                d="M26.749 24.93A13.99 13.99 0 1 0 2 16a13.9 13.9 0 0 0 3.251 8.93l-.02.017c.07.084.15.156.222.239c.09.103.187.2.28.3q.418.457.87.87q.14.124.28.242q.48.415.99.782c.044.03.084.069.128.1v-.012a13.9 13.9 0 0 0 16 0v.012c.044-.031.083-.07.128-.1q.51-.368.99-.782q.14-.119.28-.242q.451-.413.87-.87c.093-.1.189-.197.28-.3c.071-.083.152-.155.222-.24ZM16 8a4.5 4.5 0 1 1-4.5 4.5A4.5 4.5 0 0 1 16 8M8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0" />
+                        </svg>
+
+                        <article>
+                            <h4>John Deo</h1>
+                                <h6>Admin</h6>
+                        </article>
+                    </aside>
+                </div>
+
+            </div>
+
+            <div class="heading-section">
+                <aside>
+                    <div>
+                        <h1>Inventory Management System</h1>
+                        <p>Manage your products, categorise, suppliers, and orders efficiently. </p>
+                    </div>
+                </aside>
+                <div class="cards" style="font-size: 35px;  ">
+                    <div class="card" style=" display: flex; gap: 20px; padding: 15px;">
+                        <aside
+                            style=" background-color: aliceblue; border-radius: 2px; padding: 10px 20px; border: 1px solid rgba(0, 174, 255, 0.418);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048">
+                                <path d="M0 0h2048v2048H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="m960 120l832 416v1040l-832 415l-832-415V536zm625 456L960 264L719 384l621 314zM960 888l238-118l-622-314l-241 120zM256 680v816l640 320v-816zm768 1136l640-320V680l-640 320z" />
+                            </svg>
+                            <div
+                                style="display: flex; flex-direction: column; font-family:Arial, Helvetica, sans-serif;">
+                                <p style="color: black;">Total Products
+                                <p>
+                                <h5>124</h5>
+                                <p><span style="color: green;">+12</span> from last month</p>
+                            </div>
+                        </aside>
+                        <aside
+                            style=" background-color: rgba(240, 80, 72, 0.347); border-radius: 2px; padding: 10px 20px; border: 1px solid rgba(192, 36, 1, 0.418);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                                <path d="M0 0h1024v1024H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="m955.7 856l-416-720c-6.2-10.7-16.9-16-27.7-16s-21.6 5.3-27.7 16l-416 720C56 877.4 71.4 904 96 904h832c24.6 0 40-26.6 27.7-48M480 416c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v184c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8zm32 352a48.01 48.01 0 0 1 0-96a48.01 48.01 0 0 1 0 96" />
+                            </svg>
+
+                            <div
+                                style="display: flex; flex-direction: column; font-family:Arial, Helvetica, sans-serif;">
+                                <p style="color: black;">Low Stock
+                                <p>
+                                <h5>8</h5>
+                                <p style="color: rgb(184, 1, 1);">+3 from last month</p>
+                            </div>
+                        </aside>
+                        <aside
+                            style=" background-color: rgba(28, 141, 14, 0.347); border-radius: 2px; padding: 10px 20px; border: 1px solid rgba(0, 145, 5, 0.418);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+                                <path d="M0 0h16v16H0z" fill="none" />
+                                <g fill="#489d03">
+                                    <path
+                                        d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586zm3.5 4a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3" />
+                                    <path
+                                        d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043z" />
+                                </g>
+                            </svg>
+
+
+                            <div
+                                style="display: flex; flex-direction: column; font-family:Arial, Helvetica, sans-serif;">
+                                <p style="color: black;">Total Categorise
+                                <p>
+                                <h5>12</h5>
+                                <p style="color: rgb(34, 114, 0);">+3 from last month</p>
+                            </div>
+                        </aside>
+                        <aside
+                            style=" background-color: rgba(174, 74, 241, 0.1); border-radius: 2px; padding: 10px 20px; border: 1px solid rgba(80, 0, 145, 0.418);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <g fill="none" stroke="#af28d1" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5">
+                                    <path d="M12 2v2.5" />
+                                    <path
+                                        d="M5 6.5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2V16a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2Z" />
+                                    <path d="M12 18v3" />
+                                </g>
+                            </svg>
+
+
+
+                            <div
+                                style="display: flex; flex-direction: column; font-family:Arial, Helvetica, sans-serif;">
+                                <p style="color: black;">Total Stock Value
+                                <p>
+                                <h5>$28,430</h5>
+                                <p style="color: rgba(87, 0, 114, 0.715);">+8% from last month</p>
+                            </div>
+                        </aside>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
